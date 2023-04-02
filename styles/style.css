@@ -149,9 +149,7 @@ body {
 }
 .connect-four .column {
   width: 100px;
-}
-.connect-four .column:hover {
-  background-color: green;
+  cursor: pointer;
 }
 .connect-four .box {
   height: 100px;

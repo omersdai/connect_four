@@ -44,9 +44,7 @@ body {
 
   .column {
     width: $boxSize;
-    &:hover {
-      background-color: green;
-    }
+    cursor: pointer;
   }
 
   .box {
