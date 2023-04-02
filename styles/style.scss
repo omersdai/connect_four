@@ -2,9 +2,9 @@
 @import "./utilities";
 
 $primaryColor: steelblue;
-$border: 20px solid black;
+$border: 4px solid black;
 
-$backgroundColor: $white;
+$backgroundColor: $blue;
 $boardColor: $darkBlue;
 $boxSize: 100px;
 
@@ -40,6 +40,7 @@ body {
   background-color: $boardColor;
   padding: 20px;
   border-radius: 5px;
+  border: $border;
 
   .column {
     width: $boxSize;
@@ -59,5 +60,6 @@ body {
     width: 100%;
     border-radius: 50%;
     background-color: $backgroundColor;
+    border: $border;
   }
 }
